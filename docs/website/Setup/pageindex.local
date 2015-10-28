@@ -1,0 +1,8 @@
+Section "Setup"
+Root "Setup"
+File "AdminPriv.html" "Administrator Privileges"
+File "BuilderScript.html" "distrib_builder.pl"
+File "DefSetup.html" "Getting Started"
+File "Directories.html" "Directory Structure"
+File "Files.html" "Interface Files"
+File "ParseD.html" "Configuring ParseD"

@@ -1,0 +1,6 @@
+Section "DGD Reference Manual"
+Root "DGD Reference Manual"
+File "Copyright.html" "Copyright"
+File "LPC/index.html" "LPC"
+File "DGD/index.html" "DGD"
+File "Kernel/index.html" "The Kernel Library"

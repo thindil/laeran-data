@@ -1,0 +1,7 @@
+Section "DGD"
+Root "DGD"
+File "History.html" "History of DGD"
+File "Building.html" "Building DGD"
+File "Configuration.html" "Configuring DGD"
+File "Internals.html" "Under the Hood"
+File "Kfun.html" "Untitled document (Kfun.base.html)"

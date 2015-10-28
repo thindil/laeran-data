@@ -1,0 +1,6 @@
+Section "Development"
+Root "Development"
+File "Copyright.html" "Phantasmal Copyright"
+File "old_sf.html" "Old document"
+File "Policy.html" "Policy"
+File "Sourceforge.html" "Mainstream Development"

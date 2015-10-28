@@ -1,0 +1,37 @@
+~mobile{
+  ~type{user}
+  ~name{Admin}
+  ~number{200}
+  ~body{110}
+}
+
+~mobile{
+  ~type{user}
+  ~name{Thindil}
+  ~number{201}
+  ~body{102}
+}
+
+~mobile{
+  ~type{simple}
+  ~name{szczur}
+  ~number{202}
+  ~body{114}
+  ~parentbody{113}
+  ~spawnroom{100}
+}
+
+~mobile{
+  ~type{shop}
+  ~name{Sprzedawca}
+  ~number{203}
+  ~body{107}
+}
+
+~mobile{
+  ~type{townhall}
+  ~name{Łowca}
+  ~number{204}
+  ~body{101}
+}
+

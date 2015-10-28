@@ -1,0 +1,7 @@
+Section "Skotos"
+Root "Skotos"
+File "CommercialUse.html" "Commercial Use"
+File "Intro_to_SAM.html" "Introduction to SAM: Skotos Active Markup"
+File "SAM_Quick_Summary.html" "Quick SAM Summary"
+File "Skotos2.html" "Skotos 2.0 Library"
+File "SkotosLib.html" "Skotos Library"

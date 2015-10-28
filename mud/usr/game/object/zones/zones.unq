@@ -1,0 +1,31 @@
+~zone{
+     ~zonenum{0}
+     ~name{Unzoned}
+     ~attributes{0}
+}
+~zone{
+     ~zonenum{1}
+     ~name{Szkola}
+     ~attributes{0}
+}
+~zone{
+     ~zonenum{2}
+     ~name{Vishtar}
+     ~attributes{0}
+}
+~segment{
+     ~segnum{0}
+     ~zonenum{0}
+}
+~segment{
+     ~segnum{1}
+     ~zonenum{1}
+}
+~segment{
+     ~segnum{2}
+     ~zonenum{1}
+}
+~segment{
+     ~segnum{3}
+     ~zonenum{1}
+}

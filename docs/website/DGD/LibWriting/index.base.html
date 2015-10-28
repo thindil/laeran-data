@@ -1,0 +1,161 @@
+@@TITLE Writing a Library@@
+
+<h1>Writing a MUD Library for DGD</h1>
+
+<p>Actually, all advice here applies just fine to writing general
+DGD applications, but there's certainly a focus on writing a
+MUD-type networked game.</p>
+
+<p>If you decide to use the Kernel Library, you should definitely
+read <a href="../Kernel/index.html">Getting Started with the Kernel
+Library</a>.</p>
+
+<h3>Choosing a Starting Point</h3>
+
+<ul>
+  <li><a href="UseMelville.html">Should You Use Melville?</a></li>
+
+  <li><a href="UsePhantasmal.html">Should You Use
+  Phantasmal?</a></li>
+
+  <li><a href="UseKernel.html">Should You Use the Kernel
+  Library?</a></li>
+
+  <li><a href="GurbaLib.html">Development on GurbaLib</a></li>
+
+  <li><a href="Heaven7.html">Porting Heaven7</a></li>
+
+  <li><a href="StartingNew.html">Should You Write From
+  Scratch?</a></li>
+</ul>
+
+<h3>Tutorials and Simple Issues</h3>
+
+<ul>
+  <li><a href="SoYouWanna.html">So You Want to Write a
+  MUDLib...</a></li>
+
+  <li><a href="SupDocs.html">DGD's Documentation</a></li>
+
+  <li><a href="CondInherit.html">Conditional Inheritance &amp;
+  Inclusion</a></li>
+
+  <li><a href="InterruptCall.html">Dealing with
+  driver-&gt;interrupt</a></li>
+
+  <li><a href="HeartBeat.html">Heart-Beat and Reset in DGD</a></li>
+
+  <li><a href="Precompiling.html">Precompiling LPC Objects</a></li>
+
+  <li><a href="Security.html">Some Quick Security Issues</a></li>
+
+  <li><a href="ScriptDelays.html">Delay Statements in
+  Scripts</a></li>
+</ul>
+
+<h3>Large or Major Design Issues</h3>
+
+<ul>
+  <li><a href="PlayerBody.html">Separating Player From Body
+  Objects</a></li>
+
+  <li><a href="ObjectManagement.html">Upgrading Objects</a></li>
+
+  <li><a href="Persistence.html">Persistent MUD Libraries</a></li>
+
+  <li><a href="LargeAuto.html">Designing AUTO Objects</a></li>
+
+  <li><a href="DriverObj.html">Designing Driver Objects</a></li>
+
+  <li><a href="Database.html">Using an Object Database</a></li>
+
+  <li><a href="ObjBinding.html">Command Parsing and Name
+  Binding</a></li>
+
+  <li><a href="Rlimits.html">Using rlimits() in your
+  Library</a></li>
+
+  <li><a href="CmdsOrNot.html">Should You Use &frasl;cmd or a
+  Wiztool?</a></li>
+
+  <li><a href="ChangingLPC.html">Can You Modify DGD's LPC?</a></li>
+</ul>
+
+<h3>Subtle Driver Issues</h3>
+
+<p>Things in this category require significant understanding of how
+DGD does things. They're either subtle issues that you can
+(usually, mostly) ignore, or they're interesting ideas that require
+significant understanding to implement.</p>
+
+<ul>
+  <li><a href="Cleanup.html">Cleaning Up Stray Objects</a></li>
+
+  <li><a href="DistStateDump.html">Can I Distribute a MUD Library
+  as a State Dump?</a></li>
+</ul>
+
+<h3>Philosophical Issues</h3>
+
+<ul>
+  <li><a href="Releasing.html">Should You Release Your
+  Code?</a></li>
+
+  <li><a href="WhatLicense.html">What License Should Your Library
+  Use?</a></li>
+
+  <li><a href="Reimplementation.html">What's Wrong with From
+  Scratch?</a></li>
+</ul>
+
+<h3>Specific Components</h3><a name="SpecificComponents" id=
+"SpecificComponents"></a>
+
+<p>This section is about how to implement specific services or
+systems within DGD.</p>
+
+<ul>
+  <li><a href="Sendmail.html">Outgoing E-Mail</a></li>
+
+  <li><a href="FTPD.html">FTPD</a></li>
+
+  <li><a href="HTTPD.html">HTTPD&frasl;Web Access</a></li>
+
+  <li><a href="IMUD3.html">InterMUD3</a></li>
+
+  <li><a href="Telnet.html">Extended Telnet Protocol</a></li>
+
+  <li><a href="NFS.html">NFS (Networked File System)</a></li>
+
+  <li><a href="WebDAV.html">WebDAV</a></li>
+
+  <li><a href="OtherServices.html">Other MUD Protocols</a></li>
+</ul>
+<hr>
+<pre>
+@@INCLUDE fishing@@
+</pre>
+<hr>
+<pre>
+@@INCLUDE time@@
+</pre>
+<hr>
+<pre>
+@@INCLUDE casting_nil@@
+</pre>
+<hr>
+<pre>
+@@INCLUDE about_runtime_errors@@
+</pre>
+<hr>
+<pre>
+@@INCLUDE ip_to_alphanumeric@@
+</pre>
+<hr>
+<pre>
+@@INCLUDE a_simple_lib@@
+</pre>
+<hr>
+<pre>
+@@INCLUDE commercial_licensing@@
+</pre>

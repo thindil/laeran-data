@@ -1,0 +1,8 @@
+Section "Getting DGD"
+Root "Getting DGD"
+File "Customizing.html" "Customizing DGD"
+File "IPv6.html" "IPv6"
+File "MUDLibs.html" "DGD MUDLibs"
+File "NetworkPatch.html" "Network Patch"
+File "TroubleShooting.html" "Troubleshooting DGD"
+File "WindowsProb.html" "Windows Problems"

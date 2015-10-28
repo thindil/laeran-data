@@ -1,0 +1,13 @@
+* Scrap the old scripts, use kotaka's new ones.  Bash scripts are easier
+to read.  And the boot script for kotaka was written with portability in
+mind.
+
+* Drop windows support (nobody seems to be using it).
+
+* MLA citations 
+
+* Fix CVS -> SVN transitions
+
+* Consider migrating everything to SGML?
+
+* Clean up DGD/external?

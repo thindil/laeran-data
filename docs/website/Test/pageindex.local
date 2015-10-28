@@ -1,0 +1,6 @@
+Section "Test module index"
+Root "Test module index"
+File "InnsmouthHigh.html" "Innsmouth High"
+File "LightDarkGame.html" "Light and Dark Game"
+File "Lovecraft.html" "Lovecraft Country"
+File "PirateGame.html" "Pirate Game"

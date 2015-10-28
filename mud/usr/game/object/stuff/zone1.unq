@@ -1,0 +1,325 @@
+~object{
+  ~obj_type{simple room}
+  ~number{100}
+  ~location{0}
+  ~bdesc{Wprowadzenie}
+  ~ldesc{Witaj na Laeran. Jak Tutaj dowiesz się nieco rzeczy na temat mechaniki
+gry. Na początek, dwie najważniejsze komendy w grze: "pomoc" - pozwala
+dowiedzieć się wi�ęcej na wybrany temat oraz komenda "komendy" wyświetlająca
+wszystkie dostępne Tobie komendy. Wypróbuj teraz obie. Jaeżeli chcesz
+kprzejść do następnej lekcji, wyjdź z tego pokoju na północ (komenda "n").}
+  ~flags{3}
+  ~nouns{{~plPL{lounge}}}
+  ~adjectives{{}}
+  ~newexit{
+    ~rnumber{300}
+    ~direction{1}
+    ~destination{103}
+    ~return{301}
+    ~type{2}
+    ~rbdesc{exit}
+    ~rflags{3}}
+  ~newexit{
+    ~rnumber{302}
+    ~direction{2}
+    ~destination{104}
+    ~return{303}
+    ~type{2}
+    ~rbdesc{exit}
+    ~rflags{3}}
+  ~newexit{
+    ~rnumber{304}
+    ~direction{3}
+    ~destination{105}
+    ~return{305}
+    ~type{2}
+    ~rbdesc{exit}
+    ~rflags{3}}
+  ~weight{2000}
+  ~volume{1000000}
+  ~length{1000}
+  ~weight_capacity{2000000}
+  ~volume_capacity{27000000}
+  ~length_capacity{1500}
+  ~current_weight{3268}
+  ~current_volume{1635}
+  ~tags{}
+
+}
+
+~object{
+  ~obj_type{simple room}
+  ~number{101}
+  ~location{104}
+  ~bdesc{Łowca}
+  ~ldesc{Stoi sobie łowca.}
+  ~flags{1}
+  ~nouns{{~plPL{łowca, lowca}}}
+  ~adjectives{{}}
+  ~weight{100}
+  ~volume{45}
+  ~length{180}
+  ~weight_capacity{1000}
+  ~volume_capacity{1000}
+  ~length_capacity{1000}
+  ~current_weight{25}
+  ~current_volume{25}
+  ~tags{}
+
+}
+
+~object{
+  ~obj_type{simple room}
+  ~number{102}
+  ~location{1}
+  ~bdesc{Thindil}
+  ~ldesc{Thindil stoi tutaj.}
+  ~flags{3}
+  ~nouns{{~plPL{thindil}}}
+  ~adjectives{{}}
+  ~weight{70}
+  ~volume{40}
+  ~length{163}
+  ~weight_capacity{50}
+  ~volume_capacity{20}
+  ~length_capacity{300}
+  ~hp{10}
+  ~tags{}
+
+}
+
+~object{
+  ~obj_type{simple room}
+  ~number{103}
+  ~location{0}
+  ~bdesc{drugi pokój}
+  ~ldesc{test
+sadsafd}
+  ~flags{3}
+  ~nouns{{}}
+  ~adjectives{{}}
+  ~newexit{
+    ~rnumber{301}
+    ~direction{2}
+    ~destination{100}
+    ~return{300}
+    ~type{2}
+    ~rbdesc{exit}
+    ~rflags{3}}
+  ~weight{2000}
+  ~volume{1000000}
+  ~length{1000}
+  ~weight_capacity{2000000}
+  ~volume_capacity{27000000}
+  ~length_capacity{1500}
+  ~tags{}
+
+}
+
+~object{
+  ~obj_type{simple room}
+  ~number{104}
+  ~location{0}
+  ~bdesc{trzeci pokój}
+  ~ldesc{esdlkfj
+ghgrkjth
+sdajh}
+  ~flags{3}
+  ~nouns{{}}
+  ~adjectives{{}}
+  ~newexit{
+    ~rnumber{303}
+    ~direction{1}
+    ~destination{100}
+    ~return{302}
+    ~type{2}
+    ~rbdesc{exit}
+    ~rflags{3}}
+  ~weight{2000}
+  ~volume{1000000}
+  ~length{1000}
+  ~weight_capacity{2000000}
+  ~volume_capacity{27000000}
+  ~length_capacity{1500}
+  ~current_weight{3268}
+  ~current_volume{1635}
+  ~tags{}
+
+}
+
+~object{
+  ~obj_type{simple room}
+  ~number{105}
+  ~location{0}
+  ~bdesc{czwarty pokój}
+  ~ldesc{Chyba działa.}
+  ~flags{3}
+  ~nouns{{}}
+  ~adjectives{{}}
+  ~newexit{
+    ~rnumber{305}
+    ~direction{4}
+    ~destination{100}
+    ~return{304}
+    ~type{2}
+    ~rbdesc{exit}
+    ~rflags{3}}
+  ~weight{2000}
+  ~volume{1000000}
+  ~length{1000}
+  ~weight_capacity{2000000}
+  ~volume_capacity{27000000}
+  ~length_capacity{1500}
+  ~current_weight{64}
+  ~current_volume{42.5}
+  ~tags{}
+
+}
+
+~object{
+  ~obj_type{simple room}
+  ~number{106}
+  ~location{110}
+  ~flags{320}
+  ~parent{108}
+  ~nouns{{}}
+  ~adjectives{{}}
+  ~rem_nouns{{}}
+  ~rem_adjectives{{}}
+  ~tags{}
+
+}
+
+~object{
+  ~obj_type{simple room}
+  ~number{107}
+  ~location{100}
+  ~bdesc{Sprzedawca}
+  ~ldesc{jakiś sprzedawca}
+  ~flags{1}
+  ~nouns{{~plPL{sprzedawca}}}
+  ~adjectives{{~plPL{sprzedawca}}}
+  ~weight{100}
+  ~volume{45}
+  ~length{180}
+  ~weight_capacity{990}
+  ~volume_capacity{1000}
+  ~length_capacity{10}
+  ~current_weight{50}
+  ~current_volume{2.5}
+  ~tags{}
+
+}
+
+~object{
+  ~obj_type{simple room}
+  ~number{108}
+  ~location{107}
+  ~bdesc{miecz treningowy}
+  ~ldesc{Zwykły miecz do walki.}
+  ~flags{64}
+  ~nouns{{~plPL{miecz}}}
+  ~adjectives{{~plPL{treningowy}}}
+  ~weight{2}
+  ~volume{0.1}
+  ~length{100}
+  ~damage{2}
+  ~skill{walka/miecze}
+  ~tags{}
+
+}
+
+~object{
+  ~obj_type{simple room}
+  ~number{109}
+  ~location{0}
+  ~bdesc{Magazyn}
+  ~ldesc{Tutaj składujemy wszystkie archetypy.}
+  ~flags{3}
+  ~nouns{{~plPL{magazyn}}}
+  ~adjectives{{~plPL{magazyn}}}
+  ~weight{2000}
+  ~volume{1000000}
+  ~length{1000}
+  ~weight_capacity{2000000}
+  ~volume_capacity{27000000}
+  ~length_capacity{1500}
+  ~current_weight{25}
+  ~current_volume{25}
+  ~tags{}
+
+}
+
+~object{
+  ~obj_type{simple room}
+  ~number{110}
+  ~location{105}
+  ~bdesc{Admin}
+  ~ldesc{Admin stoi tutaj.}
+  ~flags{3}
+  ~nouns{{~plPL{admin}}}
+  ~adjectives{{}}
+  ~weight{64}
+  ~volume{42.5}
+  ~length{178}
+  ~weight_capacity{50}
+  ~volume_capacity{20}
+  ~length_capacity{300}
+  ~current_weight{2}
+  ~current_volume{0.1}
+  ~hp{10}
+  ~tags{}
+
+}
+
+~object{
+  ~obj_type{simple room}
+  ~number{111}
+  ~location{101}
+  ~bdesc{zwłoki szczur}
+  ~ldesc{zwłoki}
+  ~flags{0}
+  ~nouns{{~plPL{zwloki, zwłoki}}}
+  ~adjectives{{}}
+  ~weight{1}
+  ~volume{1}
+  ~length{1}
+  ~price{5}
+  ~tags{}
+
+}
+
+~object{
+  ~obj_type{simple room}
+  ~number{113}
+  ~location{109}
+  ~bdesc{szczur}
+  ~ldesc{zwykły szczur}
+  ~flags{0}
+  ~nouns{{~plPL{szczur}}}
+  ~adjectives{{~plPL{szczur}}}
+  ~weight{1}
+  ~volume{1}
+  ~length{1}
+  ~damage{1}
+  ~hp{5}
+  ~combat_rating{1}
+  ~body_locations{głowa, tułów, przednia łapa, przednia łapa, tylnia łapa, tylnia łapa, ogon}
+  ~tags{}
+
+}
+
+~object{
+  ~obj_type{simple room}
+  ~number{114}
+  ~location{100}
+  ~flags{0}
+  ~parent{113}
+  ~nouns{{}}
+  ~adjectives{{}}
+  ~rem_nouns{{}}
+  ~rem_adjectives{{}}
+  ~tags{}
+
+}
+

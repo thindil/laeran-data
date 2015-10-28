@@ -1,0 +1,7 @@
+Section "Game Design Issues"
+Root "Game Design Issues"
+File "Economy.html" "In-Game Economies"
+File "GamePersistence.html" "Persistent Game Design"
+File "GuestProgrammers.html" "Guest Programmers"
+File "PlayerContent.html" "Player Content"
+File "UrObjects.html" "Ur-Objects"
