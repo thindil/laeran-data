@@ -1,18 +1,4 @@
 ~mobile{
-  ~type{user}
-  ~name{Admin}
-  ~number{200}
-  ~body{110}
-}
-
-~mobile{
-  ~type{user}
-  ~name{Thindil}
-  ~number{201}
-  ~body{102}
-}
-
-~mobile{
   ~type{simple}
   ~name{szczur}
   ~number{202}

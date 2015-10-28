@@ -70,26 +70,6 @@ kprzejść do następnej lekcji, wyjdź z tego pokoju na północ (komenda "n").
 
 ~object{
   ~obj_type{simple room}
-  ~number{102}
-  ~location{1}
-  ~bdesc{Thindil}
-  ~ldesc{Thindil stoi tutaj.}
-  ~flags{3}
-  ~nouns{{~plPL{thindil}}}
-  ~adjectives{{}}
-  ~weight{70}
-  ~volume{40}
-  ~length{163}
-  ~weight_capacity{50}
-  ~volume_capacity{20}
-  ~length_capacity{300}
-  ~hp{10}
-  ~tags{}
-
-}
-
-~object{
-  ~obj_type{simple room}
   ~number{103}
   ~location{0}
   ~bdesc{drugi pokój}
@@ -246,28 +226,6 @@ sdajh}
   ~length_capacity{1500}
   ~current_weight{25}
   ~current_volume{25}
-  ~tags{}
-
-}
-
-~object{
-  ~obj_type{simple room}
-  ~number{110}
-  ~location{105}
-  ~bdesc{Admin}
-  ~ldesc{Admin stoi tutaj.}
-  ~flags{3}
-  ~nouns{{~plPL{admin}}}
-  ~adjectives{{}}
-  ~weight{64}
-  ~volume{42.5}
-  ~length{178}
-  ~weight_capacity{50}
-  ~volume_capacity{20}
-  ~length_capacity{300}
-  ~current_weight{2}
-  ~current_volume{0.1}
-  ~hp{10}
   ~tags{}
 
 }
