@@ -41,8 +41,6 @@ kprzejść do następnej lekcji, wyjdź z tego pokoju na północ (komenda "n").
   ~weight_capacity{2000000}
   ~volume_capacity{27000000}
   ~length_capacity{1500}
-  ~current_weight{3268}
-  ~current_volume{1635}
   ~tags{}
 
 }
@@ -62,8 +60,6 @@ kprzejść do następnej lekcji, wyjdź z tego pokoju na północ (komenda "n").
   ~weight_capacity{1000}
   ~volume_capacity{1000}
   ~length_capacity{1000}
-  ~current_weight{25}
-  ~current_volume{25}
   ~tags{}
 
 }
@@ -121,8 +117,6 @@ sdajh}
   ~weight_capacity{2000000}
   ~volume_capacity{27000000}
   ~length_capacity{1500}
-  ~current_weight{3268}
-  ~current_volume{1635}
   ~tags{}
 
 }
@@ -150,8 +144,6 @@ sdajh}
   ~weight_capacity{2000000}
   ~volume_capacity{27000000}
   ~length_capacity{1500}
-  ~current_weight{64}
-  ~current_volume{42.5}
   ~tags{}
 
 }
@@ -185,8 +177,6 @@ sdajh}
   ~weight_capacity{990}
   ~volume_capacity{1000}
   ~length_capacity{10}
-  ~current_weight{50}
-  ~current_volume{2.5}
   ~tags{}
 
 }
@@ -224,8 +214,6 @@ sdajh}
   ~weight_capacity{2000000}
   ~volume_capacity{27000000}
   ~length_capacity{1500}
-  ~current_weight{25}
-  ~current_volume{25}
   ~tags{}
 
 }

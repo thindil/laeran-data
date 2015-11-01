@@ -16,8 +16,6 @@ walls are.}}
   ~weight_capacity{10000000}
   ~volume_capacity{10000000}
   ~length_capacity{10000}
-  ~current_weight{1750}
-  ~current_volume{1000}
   ~tags{}
 
 }
