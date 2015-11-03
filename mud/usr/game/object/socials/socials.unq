@@ -1,152 +1,216 @@
 ~social{
   ~verb{beknij}
   ~self-only{Bekasz głośno.}
-  ~self-target{Bekasz głośno do ~target{}}
+  ~self-target{Bekasz głośno do ~target{3}}
   ~target{~actor{} beka głośno do Ciebie.}
   ~other-only{~actor{} beka głośno.}
-  ~other-target{~actor{} beka głośno do ~target{}}
+  ~other-target{~actor{} beka głośno do ~target{3}}
 }
 ~social{
   ~verb{blagac}
   ~self-only{Błagasz wszystkich o pomoc.}
-  ~self-target{Błagasz ~target{} o litość.}
+  ~self-target{Błagasz ~target{3} o litość.}
   ~target{~actor{} błaga Ciebie o litość.}
   ~other-only{~actor{} błaga wszystkich o pomoc.}
-  ~other-target{~actor{} błaga ~target{} o litość.}
+  ~other-target{~actor{} błaga ~target{3} o litość.}
 }
 ~social{
   ~verb{chichot}
   ~self-only{Chichoczesz do siebie.}
-  ~self-target{Chichoczesz do ~target{}.}
+  ~self-target{Chichoczesz do ~target{3}.}
   ~target{~actor{} chichocze do Ciebie.}
   ~other-only{~actor{} chichocze do siebie.}
-  ~other-target{~actor{} chichocze do ~target{}.}
+  ~other-target{~actor{} chichocze do ~target{3}.}
 }
 ~social{
   ~verb{cygaro}
   ~self-only{Zapalasz cygaro.}
-  ~self-target{Podajesz ~target{} cygaro i zapalasz je.}
+  ~self-target{Podajesz ~target{2} cygaro i zapalasz je.}
   ~target{~actor{} podaje Tobie cygaro i zapala je.}
   ~other-only{~actor{} zapala cygaro.}
-  ~other-target{~actor{} podaje ~target{} cygaro i zapala je.}
+  ~other-target{~actor{} podaje ~target{2} cygaro i zapala je.}
 }
 ~social{
   ~verb{kaszel}
   ~self-only{Zaczynasz kaszleć.}
-  ~self-target{Kaszlesz znacząco do ~target{}.}
+  ~self-target{Kaszlesz znacząco do ~target{3}.}
   ~target{~actor{} kaszle znacząco do Ciebie.}
   ~other-only{~actor{} zaczyna kaszleć.}
-  ~other-target{~actor{} kaszle znacząco do ~target{}}
+  ~other-target{~actor{} kaszle znacząco do ~target{3}}
 }
 ~social{
   ~verb{kawa}
   ~self-only{Nalewasz sobie filiżankę kawy.}
-  ~self-target{Nalewasz ~target{} filiżankę kawy.}
+  ~self-target{Nalewasz ~target{2} filiżankę kawy.}
   ~target{~actor{} nalewa Tobie filiżankę kawy.}
   ~other-only{~actor{} nalewa sobie filiżankę kawy.}
-  ~other-target{~actor{} nalewa ~target{} filiżankę kawy.}
+  ~other-target{~actor{} nalewa ~target{2} filiżankę kawy.}
 }
 ~social{
   ~verb{klaszcz}
   ~self-only{Klaszczesz.}
-  ~self-target{Bijesz brawo ~target{}.}
+  ~self-target{Bijesz brawo ~target{2}.}
   ~target{~actor{} bije Tobie brawo.}
   ~other-only{~actor{} klaszcze.}
-  ~other-target{~actor{} bije brawo dla ~target{}}
+  ~other-target{~actor{} bije brawo ~target{2}}
+}
+~social{
+  ~verb{klepnij}
+  ~self-only{Klepiesz się po udach.}
+  ~self-target{Klepiesz ~target{3} po plecach.}
+  ~target{~actor{} klepie Ciebie po plecach.}
+  ~other-only{~actor{} klepie się po udach.}
+  ~other-target{~actor{} klepie ~target{3} po plecach.}
+}
+~social{
+  ~verb{mamrocz}
+  ~self-only{Mamroczesz do siebie.}
+  ~self-target{Mamroczesz, potrząsając głową w kierunku ~target{3}.}
+  ~target{~actor{} mamrocze coś do siebie, potrząsając głową w Twoim kierunku.}
+  ~other-only{~actor{} mamrocze coś do siebie.}
+  ~other-target{~actor{} mamrocze coś do siebie, potrząsając głową w kierunku ~target{3}.}
+}
+~social{
+  ~verb{marudzic}
+  ~self-only{Marudzisz.}
+  ~self-target{Marudzisz na temat ostatnich wyczynów ~target{3}.}
+  ~target{~actor{} marudzi na temat Twoich ostatnich wyczynów.}
+  ~other-only{~actor{} marudzi.}
+  ~other-target{~actor{} marudzi na temat ostatnich wyczynów ~target{3}.}
+}
+~social{
+  ~verb{miauczy}
+  ~self-only{MIAU}
+  ~self-target{Miauczysz do ~target{3}.}
+  ~target{~actor{} miauczy do Ciebie.}
+  ~other-only{~actor{} miauczy.}
+  ~other-target{~actor{} miauczy do ~target{3}.}
 }
 ~social{
   ~verb{piwo}
   ~self-only{Wyciągasz butelkę piwa.}
-  ~self-target{Podajesz piwo ~target{}.}
+  ~self-target{Podajesz piwo ~target{2}.}
   ~target{~actor{} podaje Tobie piwo.}
   ~other-only{~actor{} wyciąga piwo.}
-  ~other-target{~actor{} podaje piwo ~target{}.}
+  ~other-target{~actor{} podaje piwo ~target{2}.}
 }
 ~social{
   ~verb{placz}
   ~self-only{Płaczesz.}
-  ~self-target{Płaczesz na ramieniu ~target{}.}
+  ~self-target{Płaczesz na ramieniu ~target{3}.}
   ~target{~actor{} płacze na Twoim ramieniu.}
   ~other-only{~actor{} popłakuje.}
-  ~other-target{~actor{} płacze na ramieniu ~target{}.}
+  ~other-target{~actor{} płacze na ramieniu ~target{3}.}
 }
 ~social{
   ~verb{pozdrow}
   ~self-only{Pozdrawiasz wszystkich.}
-  ~self-target{Pozdrawiasz ~target{}.}
+  ~self-target{Pozdrawiasz ~target{3}.}
   ~target{~actor{} pozdrawia Ciebie.}
   ~other-only{~actor{} pozdrawia wszystkich.}
-  ~other-target{~actor{} pozdrawia ~target{}.}
+  ~other-target{~actor{} pozdrawia ~target{3}.}
 }
 ~social{
   ~verb{przepros}
   ~self-only{Przepraszasz za swoje zachowanie.}
-  ~self-target{Przepraszasz ~target{}.}
+  ~self-target{Przepraszasz ~target{3}.}
   ~target{~actor{} przeprasza Ciebie.}
   ~other-only{~actor{} przeprasza za swoje zachowanie.}
-  ~other-target{~actor{} przeprasza ~target{}.}
+  ~other-target{~actor{} przeprasza ~target{3}.}
 }
 ~social{
   ~verb{rumieniec}
   ~self-only{Rumienisz się.}
-  ~self-target{Rumienisz się na widok ~target{}.}
+  ~self-target{Rumienisz się na widok ~target{3}.}
   ~target{~actor{} rumieni się na Twój widok.}
   ~other-only{~actor{} rumieni się.}
-  ~other-target{~actor{} rumieni się na widok ~target{}.}
+  ~other-target{~actor{} rumieni się na widok ~target{3}.}
+}
+~social{
+  ~verb{ryk}
+  ~self-only{Ryczysz jak smok.}
+  ~self-target{Ryczysz na ~target{3}.}
+  ~target{~actor{} ryczy groźnie na Ciebie.}
+  ~other-only{~actor{} ryczy groźnie.}
+  ~other-target{~actor{} ryczy groźnie na ~target{3}.}
+}
+~social{
+  ~verb{skinienie}
+  ~self-only{Kiwasz głową potakująco.}
+  ~self-target{Kiwasz głową potakująco do ~target{3}.}
+  ~target{~actor{} kiwa głową potakująco do Ciebie.}
+  ~other-only{~actor{} kiwa głową potakująco.}
+  ~other-target{~actor{} kiwa głową potakująco do ~target{3}.}
 }
 ~social{
   ~verb{szczeka}
   ~self-only{HAU! HAU!}
-  ~self-target{Szczekasz na ~target{}.}
+  ~self-target{Szczekasz na ~target{3}.}
   ~target{~actor{} szczeka na Ciebie.}
   ~other-only{~actor{} szczeka.}
-  ~other-target{~actor{} szczeka na ~target{}.}
+  ~other-target{~actor{} szczeka na ~target{3}.}
 }
 ~social{
   ~verb{szczerzy}
   ~self-only{Szczerzysz się dookoła.}
-  ~self-target{Szczerzysz się do ~target{}.}
+  ~self-target{Szczerzysz się do ~target{3}.}
   ~target{~actor{} szczerzy się do Ciebie.}
   ~other-only{~actor{} szczerzy się dookoła.}
-  ~other-target{~actor{} szczerzy się do ~target{}.}
+  ~other-target{~actor{} szczerzy się do ~target{3}.}
 }
 ~social{
   ~verb{szczotkuj}
   ~self-only{Szczotkujesz sobie włosy.}
-  ~self-target{Szczotkujesz włosy ~target{}. Teraz wygląda lepiej.}
+  ~self-target{Szczotkujesz włosy ~target{3}. Teraz wygląda lepiej.}
   ~target{~actor{} szczotkuje Twoje włosy.}
   ~other-only{~actor{} szczotkuje włosy.}
-  ~other-target{~actor{} szczotkuje włosy ~target{}.}
+  ~other-target{~actor{} szczotkuje włosy ~target{3}.}
+}
+~social{
+  ~verb{szturchnij}
+  ~self-only{Szturchasz się z jakiegoś dziwnego powodu.}
+  ~self-target{Szturchasz ~target{3}.}
+  ~target{~actor{} szturcha Ciebie.}
+  ~other-only{~actor{} szturcha się aby się rozbudzić.}
+  ~other-target{~actor{} szturcha ~target{3}.}
 }
 ~social{
   ~verb{taniec}
   ~self-only{Tańczysz.}
-  ~self-target{Zaczynasz tańczyć z ~target{}.}
+  ~self-target{Zaczynasz tańczyć z ~target{4}.}
   ~target{Zaprasza Ciebie do tańca.}
   ~other-only{~actor{} tańczy sobie.}
-  ~other-target{~actor{} zaczyna tańczyć z ~target{}.}
+  ~other-target{~actor{} zaczyna tańczyć z ~target{4}.}
 }
 ~social{
   ~verb{uklon}
   ~self-only{Kłaniasz się nisko.}
-  ~self-target{Kłaniasz się przed ~target{}.}
+  ~self-target{Kłaniasz się przed ~target{4}.}
   ~target{~actor{} kłania się Tobie.}
   ~other-only{~actor{} kłania się nisko.}
-  ~other-target{~actor{} kłania się przed ~target{}.}
+  ~other-target{~actor{} kłania się przed ~target{4}.}
 }
 ~social{
   ~verb{uscisk}
   ~self-only{Kogot chcesz uścisnąć?}
-  ~self-target{Zamykasz ~target{} w ciepłym uścisku.}
+  ~self-target{Zamykasz ~target{3} w ciepłym uścisku.}
   ~target{~actor{} zamyka Ciebie w ciepłym uścisku.}
   ~other-only{~actor{} rozgląda się za kimś do uściśnięcia.}
-  ~other-target{~actor{} uściskuje ciepło ~target{}.}
+  ~other-target{~actor{} uściskuje ciepło ~target{3}.}
 }
 ~social{
   ~verb{warkot}
   ~self-only{Warczysz.}
-  ~self-target{Warczysz na ~target{}.}
+  ~self-target{Warczysz na ~target{3}.}
   ~target{~actor{} warczy na Ciebie.}
   ~other-only{~actor{} warczy.}
-  ~other-target{~actor{} warczy na ~target{}.}
+  ~other-target{~actor{} warczy na ~target{3}.}
+}
+~social{
+  ~verb{wskazuj}
+  ~self-only{Wskazujesz na siebie.}
+  ~self-target{Wskazujesz na ~target{3}.}
+  ~target{~actor{} wskazuje na Ciebie.}
+  ~other-only{~actor{} wskazuje na siebie.}
+  ~other-target{~actor{} wskazuje na ~target{3}.}
 }

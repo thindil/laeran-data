@@ -23,7 +23,7 @@ create		= "_F_create";		/* name of create function */
 
 array_size	= 10000;		/* max array size */
 objects		= 5000;			/* max # of objects */
-call_outs	= 100;			/* max # of call_outs */
+call_outs	= 1000;			/* max # of call_outs */
 hotboot		= ({ "../bin/driver",
 		     "../bin/mud.dgd",
 		     "../snapshot"});
