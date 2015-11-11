@@ -1,17 +1,17 @@
 ~zone{
      ~zonenum{0}
      ~name{Unzoned}
-     ~attributes{0}
+     ~attributes{weather:none, }
 }
 ~zone{
      ~zonenum{1}
      ~name{Szkola}
-     ~attributes{0}
+     ~attributes{weather:none, }
 }
 ~zone{
      ~zonenum{2}
      ~name{Vishtar}
-     ~attributes{0}
+     ~attributes{weather:none, }
 }
 ~segment{
      ~segnum{0}
